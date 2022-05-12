@@ -1,0 +1,281 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "alex",
+      "email": "alex@gmail.com",
+      "password": "123",
+      "type": 0
+    },
+    {
+      "id": 1,
+      "username": "jessica",
+      "email": "jessica@gmail.com",
+      "password": "123",
+      "type": 0
+    },
+    {
+      "username": "omar",
+      "email": "omar@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 2
+    },
+    {
+      "username": "omar",
+      "email": "omar@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 3
+    },
+    {
+      "username": "omar",
+      "email": "omar@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 4
+    },
+    {
+      "username": "omar",
+      "email": "omar@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 5
+    },
+    {
+      "username": "omar",
+      "email": "omar@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 6
+    },
+    {
+      "username": "omar",
+      "email": "omar@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 7
+    },
+    {
+      "username": "oma2r",
+      "email": "omar@gmail.com",
+      "password": "1234",
+      "type": 1,
+      "id": 8
+    },
+    {
+      "username": "oma2r",
+      "email": "omar@gmail.com",
+      "password": "1234",
+      "type": 1,
+      "id": 9
+    },
+    {
+      "username": "oma2r",
+      "email": "omar@gmail.com",
+      "password": "1234",
+      "type": 1,
+      "id": 10
+    },
+    {
+      "username": "newuser",
+      "email": "new@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 11
+    },
+    {
+      "username": "thisshouldwork",
+      "email": "shouldwork@gmail.com",
+      "password": "123",
+      "type": 1,
+      "id": 12
+    },
+    {
+      "username": "newuser3",
+      "email": "test@gmail.com",
+      "password": "123",
+      "type": 0,
+      "id": 13
+    },
+    {
+      "username": "alfsaffsa",
+      "email": "fsaf@gmail.com",
+      "password": "123",
+      "type": 0,
+      "id": 14
+    },
+    {
+      "username": "fsaf",
+      "email": "fsaf@gmail.com",
+      "password": "123",
+      "type": 0,
+      "id": 15
+    },
+    {
+      "username": "sfasfaf",
+      "email": "fsf@gmail.com",
+      "password": "123",
+      "type": 0,
+      "id": 16
+    },
+    {
+      "username": "fsa",
+      "email": "fsa@gmail.com",
+      "password": "123",
+      "type": 0,
+      "id": 17
+    },
+    {
+      "username": "register",
+      "email": "r@gmail.com",
+      "password": "123",
+      "type": 0,
+      "id": 18
+    },
+    {
+      "username": "register",
+      "email": "r@gmail.com",
+      "password": "123",
+      "type": 0,
+      "id": 19
+    },
+    {
+      "username": "newuser3",
+      "email": "test",
+      "password": "123",
+      "type": 0,
+      "id": 20
+    }
+  ],
+  "tournaments": [
+    {
+      "name": "lol tournament",
+      "skillLevel": "Advanced",
+      "prizePool": "1234",
+      "description": "bronze level tournament",
+      "id": 0
+    },
+    {
+      "name": "lol tournament",
+      "skillLevel": "Advanced",
+      "prizePool": "1234",
+      "description": "bronze level tournament",
+      "id": 1
+    },
+    {
+      "name": "lol tournament",
+      "skillLevel": "Advanced",
+      "prizePool": "1234",
+      "description": "bronze level tournament",
+      "id": 2
+    },
+    {
+      "name": "lol tournament",
+      "skillLevel": "Advanced",
+      "prizePool": "1234",
+      "description": "bronze level tournament",
+      "id": 3
+    },
+    {
+      "name": "lol tournament",
+      "skillLevel": "Advanced",
+      "prizePool": "1234",
+      "description": "bronze level tournament",
+      "id": 4
+    },
+    {
+      "name": "test",
+      "skillLevel": "Beginner",
+      "prizePool": 0,
+      "description": "plzwork",
+      "id": 5
+    },
+    {
+      "name": "tournament2",
+      "skillLevel": "Advanced",
+      "prizePool": 0,
+      "description": "fsaf",
+      "id": 6
+    },
+    {
+      "name": "tournament3",
+      "skillLevel": "Advanced",
+      "prizePool": 0,
+      "description": "fsaf",
+      "id": 7
+    },
+    {
+      "name": "saff",
+      "skillLevel": "Intermediate",
+      "prizePool": 0,
+      "description": "fsaf",
+      "id": 8
+    },
+    {
+      "name": "fsafagagsagga",
+      "skillLevel": "Intermediate",
+      "prizePool": 0,
+      "description": "fsafas",
+      "id": 9
+    },
+    {
+      "name": "ffff",
+      "skillLevel": "Intermediate",
+      "prizePool": 0,
+      "description": "ggg",
+      "id": 10
+    },
+    {
+      "name": "testtest",
+      "skillLevel": "Intermediate",
+      "prizePool": 42525,
+      "description": "fsafasfas",
+      "id": 11
+    }
+  ],
+  "teams": [
+    {
+      "name": "newbies",
+      "capacity": 3,
+      "description": "bronze level team",
+      "id": 0
+    },
+    {
+      "name": "team2",
+      "capacity": "5",
+      "description": "gold level tournament",
+      "id": 1
+    },
+    {
+      "name": "team3",
+      "capacity": "7",
+      "description": "silver level tournament",
+      "id": 2
+    },
+    {
+      "name": "team3",
+      "capacity": "7",
+      "description": "silver level tournament",
+      "id": 3
+    },
+    {
+      "name": "team3",
+      "capacity": "7",
+      "description": "silver level tournament",
+      "id": 4
+    },
+    {
+      "name": "team3",
+      "capacity": "7",
+      "description": "silver level tournament",
+      "id": 5
+    },
+    {
+      "name": "team3",
+      "capacity": "7",
+      "description": "silver level tournament",
+      "id": 6
+    }
+  ]
+}
