@@ -68,7 +68,7 @@ module.exports = {
 
         // const newTournament = await res.json();
         // return newTournament;
-
+        // just a bit of an update to show we working on code
 
         // con.connect(async function (err) {
         //     if (err) throw err;
