@@ -90,7 +90,7 @@ module.exports = {
         }
         res.status(200).send(data);
     },
-
+    
     removeTeamTournament: async (req, res) => {
         const data = await model.removeTeamTournament(parseInt(req.params.team));
         console.log(data);
