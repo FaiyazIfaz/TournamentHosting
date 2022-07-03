@@ -14,12 +14,7 @@ var con = mysql.createConnection({
 
 module.exports = {
     getUser: async (id) => {
-        // const res = await fetch(`${url}/users/?id=${id}`);
-        // const user = await res.json();
-        // if (user.length == 0) {
-        //     return null;
-        // }
-        // return user;
+        
 
         return (async () => {
             var sql = `SELECT * FROM users WHERE id = '${id}'`;
@@ -43,12 +38,7 @@ module.exports = {
     },
 
     login: async (username, password) => {
-        // const res = await fetch(`${url}/users/?username=${username}&password=${password}`);
-        // const user = await res.json();
-        // if (user.length == 0) {
-        //     return null;
-        // }
-        // return user;
+       
 
         return (async () => {
             var sql = `SELECT * FROM users WHERE username = '${username}' AND password = '${password}'`;
@@ -72,20 +62,7 @@ module.exports = {
     },
 
     getAllUsers: async () => {
-        // const res = await fetch(`${url}/users`);
-        // const users = await res.json();
-        // return users;
-
-        // con.connect(async function (err) {
-        //     if (err) throw err;
-        //     var sql = `SELECT * FROM users`;
-        //     con.query(sql, async function (err, result) {
-        //       if (err) throw err;
-        //       return result;
-        //     });
-        //   });
-
-        //   const mysql = require("mysql");
+        
 
         return (async () => {
             var sql = `SELECT * FROM users`;
@@ -111,17 +88,7 @@ module.exports = {
 
     addUser: async (user) => {
         
-        // con.connect(async function (err) {
-        //     if (err) throw err;
-        //     console.log("Connected!");
-        //     var sql = `INSERT INTO users (username, password, email, type) VALUES ('${user.username}', '${user.password}', '${user.email}', '${user.type}')`;
-        //     con.query(sql, async function (err, result) {
-        //       if (err) throw err;
-        //       user.id = await result.insertId;
-        //     });
-        //   });
-
-        // return user;
+       
 
 
         return (async () => {
